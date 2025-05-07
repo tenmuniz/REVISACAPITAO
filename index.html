@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisão do Capitão - Aperfeiçoe seus OFICIOS, MEMORANDOS E O.S</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="animated-bg">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+      <canvas id="particles-canvas"></canvas>
+    </div>
+    
+    <div class="container">
+      <div class="header-content">
+        <div class="logo-title-container">
+
+          <div class="title-container">
+            <div class="title-wrapper">
+              <span>Revisão do Capitão</span>
+              <img src="vtyehgjwkd.jpg" alt="Brasão" class="inline-logo">
+            </div>
+            <p class="header-subtitle">Aperfeiçoe seus OFICIOS, MEMORANDOS E O.S</p>
+          </div>
+        </div>
+        
+        <div class="motto-container">
+          <p class="motto">Administração forte, tropa imbatível</p>
+          <p class="unit">20ªCIPM - MUANÁ</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wave-container">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Upload Section -->
+      <section class="card fade-in">
+        <h2 class="card-title"><i class="fas fa-file-alt"></i> Insira seu Texto</h2>
+        
+        <div class="upload-area" id="drop-area">
+          <i class="fas fa-file-pdf upload-icon"></i>
+          <p class="upload-text">Arraste e solte seu PDF aqui ou</p>
+          <button class="btn-primary" id="upload-button">
+            <i class="fas fa-upload"></i> Escolher arquivo
+          </button>
+          <input type="file" id="file-input" hidden accept=".pdf">
+        </div>
+        
+        <div class="divider">ou</div>
+        
+        <textarea id="text-input" class="text-input" placeholder="Cole seu texto aqui..."></textarea>
+        
+        <div class="action-buttons">
+          <button class="btn-secondary" id="new-text-button">
+            <i class="fas fa-plus"></i> Criar Texto Novo
+          </button>
+          <button class="btn-primary" id="process-button">
+            <i class="fas fa-check"></i> Corrigir Texto
+          </button>
+        </div>
+      </section>
+      
+      <!-- Results Section -->
+      <section class="card result-card fade-in" style="display: none;">
+        <h2 class="result-title">
+          <i class="fas fa-star result-icon"></i> Resultado
+        </h2>
+        
+        <div class="result-text">
+          <p>O texto revisado aparecerá aqui...</p>
+        </div>
+        
+        <div class="action-buttons">
+          <button class="btn-primary" id="copy-button">
+            <i class="fas fa-copy"></i> Copiar Texto
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">© 2023 DY CFM. Todos os direitos reservados.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js"></script>
+</body>
+</html>

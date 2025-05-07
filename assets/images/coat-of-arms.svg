@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3C8A"/>
+      <stop offset="100%" stop-color="#1A327A"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background -->
+  <path d="M250,30 L450,100 C450,300 400,420 250,470 C100,420 50,300 50,100 L250,30z" fill="url(#blueGradient)" stroke="#192C54" stroke-width="8"/>
+  
+  <!-- Brazilian flag left side -->
+  <path d="M110,130 L190,170 L190,320 L110,320 Z" fill="#FFD700"/>
+  <path d="M110,130 L150,145 L150,320 L110,320 Z" fill="#009C3B"/>
+  <text x="120" y="200" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" transform="rotate(-30, 120, 200)">ORDEM</text>
+
+  <!-- Para flag right side -->
+  <path d="M310,170 L390,130 L390,320 L310,320 Z" fill="#FFFFFF"/>
+  <path d="M350,145 L390,130 L390,320 L350,320 Z" fill="#C8102E"/>
+  <circle cx="350" cy="235" r="25" fill="#1A327A"/>
+
+  <!-- Uniform -->
+  <path d="M250,180 C290,180 330,200 360,240 L360,380 C330,420 290,440 250,440 C210,440 170,420 140,380 L140,240 C170,200 210,180 250,180 Z" fill="#24365E"/>
+  
+  <!-- Face -->
+  <circle cx="250" cy="160" r="60" fill="#D18B47"/>
+  <path d="M250,160 C270,160 290,170 300,190 L300,210 C290,230 270,240 250,240 C230,240 210,230 200,210 L200,190 C210,170 230,160 250,160 Z" fill="#D18B47"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="230" cy="160" rx="10" ry="8" fill="#333333"/>
+  <ellipse cx="270" cy="160" rx="10" ry="8" fill="#333333"/>
+  
+  <!-- Mouth -->
+  <path d="M230,190 C240,200 260,200 270,190" fill="none" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Salute hand -->
+  <path d="M190,150 C180,140 170,140 160,150 L150,180 L160,190 L190,150 Z" fill="#D18B47"/>
+  
+  <!-- Uniform details -->
+  <rect x="210" y="280" width="40" height="20" rx="2" fill="#111111"/>
+  <text x="212" y="295" fill="#EEEEEE" font-family="Arial" font-size="10" font-weight="bold">20ºCIPM</text>
+  
+  <rect x="270" y="280" width="40" height="20" rx="2" fill="#111111"/>
+  <text x="272" y="295" fill="#EEEEEE" font-family="Arial" font-size="10" font-weight="bold">MUNIZ</text>
+
+  <!-- Shoulders with stars -->
+  <rect x="180" y="220" width="30" height="20" fill="#111111" transform="rotate(-20, 180, 220)"/>
+  <circle cx="185" cy="225" r="3" fill="#FFFFFF" transform="rotate(-20, 180, 220)"/>
+  <circle cx="195" cy="225" r="3" fill="#FFFFFF" transform="rotate(-20, 180, 220)"/>
+  <circle cx="205" cy="225" r="3" fill="#FFFFFF" transform="rotate(-20, 180, 220)"/>
+  
+  <rect x="290" y="220" width="30" height="20" fill="#111111" transform="rotate(20, 290, 220)"/>
+  <circle cx="295" cy="225" r="3" fill="#FFFFFF" transform="rotate(20, 290, 220)"/>
+  <circle cx="305" cy="225" r="3" fill="#FFFFFF" transform="rotate(20, 290, 220)"/>
+  <circle cx="315" cy="225" r="3" fill="#FFFFFF" transform="rotate(20, 290, 220)"/>
+</svg>
