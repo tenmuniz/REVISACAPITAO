@@ -1,0 +1,1 @@
+{ "version": 2, "functions": { "api/openai.js": { "memory": 1024, "maxDuration": 10 } }, "routes": [ { "src": "/api/openai", "dest": "/api/openai.js" } ] }

@@ -1,0 +1,6 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente com informações sensíveis
+.env
+.env.local
