@@ -1,0 +1,1 @@
+{ "name": "revisao-capitao", "version": "1.0.0", "description": "Sistema de revisão de textos usando IA", "main": "index.js", "dependencies": { "node-fetch": "^2.6.9" } }
